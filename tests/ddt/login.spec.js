@@ -15,7 +15,7 @@ test.only('POM', async({page})=>{
     await obj.button.click()
 })
 
-test('methods',async({page})=>{
+test('method',async({page})=>{
     let obj1=new loginpage(page)
     await obj1.launch(data.url)
     await obj1.enter_details(data.Username,data.Password)
